@@ -1,3 +1,9 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+
+
 #Change the name to match your course name
 
 #Example name: Deploy HTML Files to AppService - COURSENAME
@@ -18,11 +24,11 @@ jobs:
 
     runs-on: windows-latest
 
-    steps:
+     steps:
 
-      - uses: actions/checkout@main
+    - uses: actions/checkout@main
 
-      - name: Deploy to Azure Web App
+    - name: Deploy to Azure Web App
 
       uses: azure/webapps-deploy@v1
 
@@ -37,9 +43,3 @@ jobs:
       #Change the publish profile to match what you named your secret setup in GitHub, Example shown below
 
         publish-profile: ${{ secrets.AppServiceCMST385 }}
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
