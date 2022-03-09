@@ -3,7 +3,7 @@ body {
   color: orange;
   font-family: Verdana, Arial, sans-serif;
   text-align: center;
-  padding-bottom: 20px
+  padding-bottom: 40px
 }
 /*
 header {
@@ -26,6 +26,7 @@ p {
   color: DAADAA;
   font-family: monospace;
   font-size: 10;
+  width: 400
 }
 img {
   width: auto;
