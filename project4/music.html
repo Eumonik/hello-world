@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Home - Eumonik</title>
+<meta charset="UTF-8">
+<!--
+<link rel="stylesheet" href="project3/css/styles.css">
+-->
+<link rel="stylesheet" href="/project3/css/style.css">
+</head>
+<body>
+
+    <div class="header" id="myHeader">
+      <h2>EUMONIK //</h2>
+      <a href="/project3/index.html">HOME |</a>
+      <a href="/project3/music.html"> MUSIC |</a>
+      <a href="/project3/news.html">NEWS </a>
+    </div>
+
+    <div class="content">
+      <h1>MUSIC</h1>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2AMRZHSsERFL7uBhpq1lQk?utm_source=generator" width="77%" height="440" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <br>
+      <h2>Live Performances, Tutorials, and other videos</h2>
+      <a href="https://youtube.com/c/eumonik">
+        <img src="/project3/imgs/Eumonik_YouTube_Banner.jpg" alt="Eumonik_YouTube_Banner" padding=220>
+      </a>
+
+    </div>
+
+</body>
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+  <footer>Eumonik © 2022</footer>
+</body>
+</html>

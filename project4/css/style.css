@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+  color: orange;
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  padding-bottom: 40px
+}
+
+h1 {
+  color: AAAABB;
+  font-family: monospace;
+  font-size: 14;
+}
+h2 {
+  color: AAAABB;
+  font-family: monospace;
+  font-size: 12;
+}
+p {
+  color: DAADAA;
+  font-family: monospace;
+  font-size: 10;
+  width: 400
+}
+img {
+  width: auto;
+}
+footer {
+  color: white;
+  background-color: orange;
+  padding: 12pt;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}

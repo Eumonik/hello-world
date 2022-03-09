@@ -1,0 +1,100 @@
+body {
+  background-color: white;
+  color: orange;
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  padding-bottom: 40px
+}
+/*
+header {
+  color: white;
+  background-color: orange;
+  padding: 12pt
+}
+*/
+h1 {
+  color: AAAABB;
+  font-family: monospace;
+  font-size: 14;
+}
+h2 {
+  color: AAAABB;
+  font-family: monospace;
+  font-size: 12;
+}
+p {
+  color: DAADAA;
+  font-family: monospace;
+  font-size: 10;
+  width: 400
+}
+img {
+  width: auto;
+}
+footer {
+  color: white;
+  background-color: orange;
+  padding: 12pt;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.header {
+
+  background: orange;
+  color: white;
+}
+.content {
+  padding: 0px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 0px;
+}
+
+.boom {
+  font-family: Verdana, Arial, sans-serif;
+  text-shadow: 70;
+  size: 800;
+}
+
+/*
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+/* Page content
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0)
+.sticky + .content {
+  padding-top: 102px;
+}
+a. H1 Heading Style (color, font family, center alignment, and font size).
+b. H2 Heading Style (color, font family, center alignment, and font size).
+c. Paragraph Style (color, font-family, and font-size, margin).
+d. Create at least one ID Attribute.
+e. Create at least one CLASS Attribute.
+f. Body (Add a background color and text color that is easy to read together. Set the font family to Verdana with fallbacks to Arial and sans-serif).
+g. Page Header and Footer (Create styles for both).
+h. Wrapper or Content Container (Create a Wrapper or Content Container that keeps your content from bumping into the sizes of the web browser).
+i. Navigation (Create a style to Center your navigation). Your navigation should include links to all three pages of your fan website.
+*/

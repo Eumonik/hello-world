@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Home - Eumonik</title>
+<meta charset="UTF-8">
+<!--
+<link rel="stylesheet" href="project3/css/styles.css">
+-->
+<link rel="stylesheet" href="/project3/css/style.css">
+</head>
+<body>
+
+    <div class="header" id="myHeader">
+      <h2>EUMONIK //</h2>
+      <a href="/project3/index.html">HOME |</a>
+      <a href="/project3/music.html"> MUSIC |</a>
+      <a href="/project3/news.html">NEWS </a>
+    </div>
+
+    <div class="content">
+      <h1>NEWS</h1>
+      <img src="/project3/imgs/eumonik_selah.jpg" alt="eumonik_selah" height=77>
+      <p>I stopped making videos in the middle of November 2021</p>
+      <p>during a lifechanging experience that hasn't stopped working,</p>
+      <p>nor will it, ever.</p>
+      <p>I've staked an upcoming creative milestone in my mind<p>
+      <p>to address all these imminent and unforseen changes.</p>
+      <p>You will always have a place ready for you when you are ready.</p>
+      <p>Peace be with you. We will meet soon.</p>
+      <p>Rejoice always.</p>
+      <br>
+      <h2>Kyle James Jezwinski</h2>
+    </div>
+
+</body>
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+  <footer>Eumonik © 2022</footer>
+</body>
+</html>
