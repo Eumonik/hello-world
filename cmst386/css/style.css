@@ -1,13 +1,45 @@
 body {
-  background-color: F1F1F1;
+  background-color: LightGray;
+  text-align: center;
+  max-width: 700px
 }
+
 h1 {
-  color: AAAABB;
+  color: white;
   border: 4px solid Tomato;
+  font-family: monospace;
 }
+
 h3 {
   color: DodgerBlue
 }
+
+a:link, a:visited {
+  background-color: white;
+  color: Tomato;
+  border: 2px solid LightGray;
+  padding: 10px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+a:hover, a:active {
+  background-color: LightGray;
+  color: white;
+}
+
 p {
   color: DAADAA;
+}
+
+ul {
+  list-style-type: none;
+  background: Tomato;
+  padding: 7px;
+}
+
+li {
+  background: #224455
 }
