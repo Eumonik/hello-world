@@ -100,6 +100,7 @@ li {
   background-color: none;
   font-family: monospace;
   align-items: center;
+  align-content: center;
 }
 
 /* Links inside the navbar */
