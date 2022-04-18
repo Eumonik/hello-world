@@ -49,6 +49,7 @@ a:hover, a:active {
 
 p {
   color: #29160F;
+  max-width: 277px;
 }
 
 ul {
