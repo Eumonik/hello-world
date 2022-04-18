@@ -19,6 +19,11 @@ content {
   margin: auto;
 }
 
+footer {
+  max-width: 777px;
+  margin: auto;
+}
+
 a:link, a:visited {
   background-color: white;
   color: Tomato;
@@ -37,6 +42,7 @@ a:hover, a:active {
 
 p {
   color: DAADAA;
+  padding-bottom: 22px
 }
 
 ul {
