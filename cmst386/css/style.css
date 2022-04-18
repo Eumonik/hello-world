@@ -101,6 +101,7 @@ li {
   font-family: monospace;
   align-items: center;
   align-content: center;
+  text-align: center;
 }
 
 /* Links inside the navbar */
