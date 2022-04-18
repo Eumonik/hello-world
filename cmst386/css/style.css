@@ -64,8 +64,7 @@ ul {
   list-style-type: none;
   background: Tomato;
   padding: 7px;
-  max-width: 40%;
-  text-align: center;
+  min-width: auto
 }
 
 li {
@@ -127,16 +126,14 @@ li {
   color: #EF5502;
   padding: 14px 16px;
   background-color: none;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  margin: 0;
 }
 
-/* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: LightGray;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -145,7 +142,6 @@ li {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: none;
