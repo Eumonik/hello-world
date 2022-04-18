@@ -16,7 +16,7 @@ h3 {
 }
 
 content {
-  max-width: 777px;
+  max-width: 277px;
   margin: auto;
 }
 
@@ -49,7 +49,6 @@ a:hover, a:active {
 
 p {
   color: #29160F;
-  max-width: 277px;
 }
 
 ul {
