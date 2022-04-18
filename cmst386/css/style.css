@@ -26,6 +26,7 @@ h6 {
 content {
   max-width: 44%;
   margin: auto;
+  align-content: center;
 }
 
 img {
