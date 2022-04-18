@@ -11,7 +11,8 @@ h1 {
 }
 
 h3 {
-  color: Gray
+  color: Gray;
+  font-family: monospace;
 }
 
 content {
