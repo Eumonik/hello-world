@@ -49,6 +49,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   font-family: sans-serif;
+  padding: 4px
 }
 
 a:hover, a:active {
