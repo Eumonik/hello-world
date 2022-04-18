@@ -17,6 +17,11 @@ h3 {
   font-family: monospace;
 }
 
+h6 {
+  color: Orange;
+  border-bottom: 1.5px dotted tan
+}
+
 content {
   max-width: 44%;
   margin: auto;
