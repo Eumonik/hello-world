@@ -102,6 +102,7 @@ li {
   align-items: center;
   align-content: center;
   text-align: center;
+  padding-bottom: 22px
 }
 
 /* Links inside the navbar */
