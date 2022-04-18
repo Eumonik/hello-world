@@ -96,7 +96,7 @@ li {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #FED2BB;
+  background-color: none;
   font-family: monospace;
   align-items: center;
 }
@@ -105,7 +105,7 @@ li {
 .navbar a {
   float: left;
   font-size: 16px;
-  color: green;
+  color: #EF5502;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -131,7 +131,7 @@ li {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: LightGray;
 }
 
 /* Dropdown content (hidden by default) */
