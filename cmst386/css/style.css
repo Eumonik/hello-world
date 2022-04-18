@@ -2,7 +2,8 @@ body {
   background-color: LightYellow;
   text-align: center;
   align-items: center;
-  max-width: 277px;
+  max-width: 677px;
+  padding-left: 277px
 }
 
 h1 {
