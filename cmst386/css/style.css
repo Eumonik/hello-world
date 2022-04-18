@@ -128,6 +128,7 @@ li {
   background-color: none;
   font-family: inherit;
   margin: 0;
+  border-radius: 40px;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
