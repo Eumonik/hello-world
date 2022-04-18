@@ -28,6 +28,7 @@ footer {
   max-width: 777px;
   margin: auto;
   padding-top: 77px;
+  color: #BA684A;
 }
 
 a:link, a:visited {
@@ -47,7 +48,7 @@ a:hover, a:active {
 }
 
 p {
-  color: DAADAA;
+  color: #29160F;
   padding-bottom: 22px
 }
 
