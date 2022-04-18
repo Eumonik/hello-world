@@ -14,6 +14,11 @@ h3 {
   color: DodgerBlue
 }
 
+content {
+  max-width: 777px;
+  margin: auto;
+}
+
 a:link, a:visited {
   background-color: white;
   color: Tomato;
