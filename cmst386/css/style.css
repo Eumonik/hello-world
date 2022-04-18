@@ -19,6 +19,10 @@ content {
   margin: auto;
 }
 
+img {
+  max-width: 200px;
+}
+
 footer {
   max-width: 777px;
   margin: auto;
@@ -52,5 +56,5 @@ ul {
 }
 
 li {
-  background: Tan
+  background: LightYellow
 }
