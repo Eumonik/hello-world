@@ -65,11 +65,12 @@ ul {
   list-style-type: none;
   background: Tomato;
   padding: 7px;
-  max-width: inherit;
+  max-width: 70%;
 }
 
 li {
-  background: LightYellow
+  background: LightYellow;
+  padding: 12px;
 }
 
 #myBtn {
