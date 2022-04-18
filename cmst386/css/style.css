@@ -1,7 +1,7 @@
 body {
   background-color: LightYellow;
   text-align: center;
-  max-width: 700px
+  align-items: center;
 }
 
 h1 {
