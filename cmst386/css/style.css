@@ -11,7 +11,7 @@ h1 {
 }
 
 h3 {
-  color: Gray 
+  color: Gray
 }
 
 content {
@@ -26,6 +26,7 @@ img {
 footer {
   max-width: 777px;
   margin: auto;
+  padding-top: 200px;
 }
 
 a:link, a:visited {
@@ -53,6 +54,7 @@ ul {
   list-style-type: none;
   background: Tomato;
   padding: 7px;
+  max-width: inherit;
 }
 
 li {
