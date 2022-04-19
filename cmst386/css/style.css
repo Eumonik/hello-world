@@ -173,14 +173,13 @@ li {
   position: relative;
   display: inline-block;
   cursor: pointer;
-  opacity: 0.7;
 }
 
 /* The actual popup (appears on top) */
 .popup .popuptext {
   visibility: hidden;
   width: 200px;
-  background-color: #EF5502;
+  background-color: rgba(239, 85, 2, 0.7);
   color: #fff;
   text-align: center;
   border-radius: 6px;
