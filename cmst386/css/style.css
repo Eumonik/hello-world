@@ -182,4 +182,15 @@ a.chzbrgr {
   text-decoration: none;
   display: inline;
   font-family: sans-serif;
+  background-color: white;
+  color: #29160F;
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: sans-serif;
+  padding: auto;
+}
 }
