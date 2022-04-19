@@ -178,6 +178,8 @@ li {
   to {opacity:1 ;}
 }
 
-.chzbrgr {
+a.chzbrgr {
   text-decoration: none;
+  display: inline;
+  font-family: sans-serif;
 }
