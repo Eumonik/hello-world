@@ -167,39 +167,6 @@ li {
   display: block;
 }
 
-/* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 500px;
-  background-color: rgba(239, 85, 2, 0.88);
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 12px;
-  position: fixed;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: 250px;
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 14pt
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 2s;
-  animation: fadeIn 2s
-}
-
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
