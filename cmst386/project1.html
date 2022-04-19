@@ -73,6 +73,10 @@
       <img src="images/heading_hierarchy_example.png" alt="HTML Heading Hierarchy Example">
       <p>It's good, right?</p>
 
+      <div class="popup" onclick="myFunction()">❂
+        <span class="popuptext" id="myPopup">Project Reflection</span>
+      </div>
+
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       <h6>Rejoice ALWAYS.</h6>
     </div>
@@ -98,6 +102,12 @@
       function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
+      }
+
+      // When the user clicks on <div>, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
       }
     </script>
 
