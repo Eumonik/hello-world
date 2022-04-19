@@ -32,6 +32,11 @@ img {
   max-width: 400px;
 }
 
+figcaption {
+  font-family: fantasy;
+  color: #993600;
+}
+
 footer {
   max-width: 777px;
   margin: auto;
