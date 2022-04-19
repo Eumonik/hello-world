@@ -177,7 +177,7 @@ li {
 /* The actual popup (appears on top) */
 .popup .popuptext {
   visibility: hidden;
-  width: 440px;
+  width: 500px;
   background-color: rgba(239, 85, 2, 0.8);
   color: #fff;
   text-align: center;
@@ -187,7 +187,7 @@ li {
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: 220px;
+  margin-left: 250px;
   font-family: monospace;
 }
 
