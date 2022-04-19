@@ -195,8 +195,8 @@ li {
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
   visibility: visible;
-  -webkit-animation: fadeIn 3s;
-  animation: fadeIn 3s
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s
 }
 
 /* Add animation (fade in the popup) */
