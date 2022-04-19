@@ -102,7 +102,6 @@ li {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  opacity: 0;
   font-family: monospace;
   align-items: center;
   align-content: center;
@@ -133,7 +132,7 @@ li {
   outline: none;
   color: #EF5502;
   padding: 14px 16px;
-  opacity: 0;
+  opacity: 0.7;
   font-family: inherit;
   margin: 0;
   border-radius: 40px;
