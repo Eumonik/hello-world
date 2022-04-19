@@ -73,8 +73,20 @@
       <img src="images/heading_hierarchy_example.png" alt="HTML Heading Hierarchy Example">
       <p>It's good, right?</p>
 
-      <div class="popup" onclick="myFunction()">❂
-        <span class="popuptext" id="myPopup">Project Reflection</span>
+      <div class="popup" onclick="myFunction()">Reflect ❂ tcelfeR
+        <span class="popuptext" id="myPopup">
+          <h3>~Project Reflection~</h3>
+          <h4>HTML Validation Results</h4>
+          <a href="images/ValidationResults_KyleJezwinski_index.png">Index</a>
+          <a href="images/ValidationResults_KyleJezwinski_project1.png">Project</a>
+          <a href="images/ValidationResults_KyleJezwinski_gallery.png">Gallery</a>
+          <h4>What issues or challenges did you face completing this project?</h4>
+          <p>answer</p>
+          <h4>How did you resolve them?</h4>
+          <p>answer</p>
+          <h4>If you did not face any challenges or issues in completing the project, what do you think are some issues or challenges someone new to creating web pages might face completing a project like this?</h4>
+          <p>answer</p>
+        </span>
       </div>
 
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -84,27 +96,24 @@
     <footer><h3>Kyle Jezwinski © 2022</h3></footer>
 
     <script>
-      //Get the button
+
       var mybutton = document.getElementById("myBtn");
 
-      // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};
 
       function scrollFunction() {
-        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
           mybutton.style.display = "block";
         } else {
           mybutton.style.display = "none";
         }
       }
 
-      // When the user clicks on the button, scroll to the top of the document
       function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
 
-      // When the user clicks on <div>, open the popup
       function myFunction() {
         var popup = document.getElementById("myPopup");
         popup.classList.toggle("show");
