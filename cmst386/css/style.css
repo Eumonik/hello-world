@@ -101,7 +101,7 @@ li {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: none;
+  opacity: 0;
   font-family: monospace;
   align-items: center;
   align-content: center;
@@ -132,7 +132,7 @@ li {
   outline: none;
   color: #EF5502;
   padding: 14px 16px;
-  background-color: none;
+  opacity: 0;
   font-family: inherit;
   margin: 0;
   border-radius: 40px;
@@ -145,14 +145,14 @@ li {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: none;
+  opacity: 0;
   min-width: 160px;
   z-index: 1;
 }
 
 .dropdown-content a {
   float: none;
-  color: none;
+  opacity: 0;
   padding: 18px 20px;
   text-decoration: none;
   display: block;
