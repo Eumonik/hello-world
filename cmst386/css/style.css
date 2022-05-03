@@ -68,7 +68,7 @@ p {
   color: #29160F;
   margin-left: 4px;
   margin-right: 20%;
-  font: Helvetica;
+  font-family: sans-serif;
 }
 
 ul {
