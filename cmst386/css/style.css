@@ -24,7 +24,7 @@ h6 {
 }
 
 content {
-  margin: 77vw;
+  margin: 88vw; 
   text-align: center;
 }
 
@@ -41,7 +41,7 @@ figcaption {
 footer {
   max-width: 777px;
   margin: auto;
-  padding-top: 77px;
+  padding-top: 24px;
   color: #733F2C;
 }
 
