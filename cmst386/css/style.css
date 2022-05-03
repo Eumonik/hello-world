@@ -181,3 +181,7 @@ li {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+script {
+  margin-right: 20%;
+}
