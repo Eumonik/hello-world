@@ -218,4 +218,5 @@ li {
   margin: 0;
   border-radius: 40px;
   background-image: linear-gradient(#ff7b00, #ffcc00);
+  box-shadow: 0 4px 8px 0 rgba(7, 5, 3, 0.2), 0 6px 20px 0 rgba(7, 4, 2, 0.19);
 }
