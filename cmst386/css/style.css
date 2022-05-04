@@ -190,7 +190,7 @@ li {
 
 /* Create four equal columns */
 .column {
-  flex: 25%;
+  flex: 33.3%;
   padding: 20px;
 }
 
