@@ -21,10 +21,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   font-family: inherit;
 }
 
-em {
-	font-style: italic;
-}
-
 strong {
 	font-weight: bold;
 }
@@ -37,43 +33,55 @@ body {
 }
 /* /END RESET */
 body {
-	background: #6d6d6d url("img/bodyBg_repeatX.gif") top repeat-x;
+	background: #fffeeb;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 p {
-	line-height: 150%;
-	margin: 0 0 10px;
+	line-height: 80%;
+	margin: 2px 2px 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #2E4A74;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-	font-size: 20px;
+	font-size: 24px;
 	margin: 0 0 15px;
 	font-weight: normal;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 19px;
 	margin: 0 0 12px;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 h3 {
-	font-size: 15px;
+	font-size: 16px;
 	margin: 0 0 12px;
-	font-weight: normal;
+	font-weight: lighter;
 }
 
+h4 {
+	font-size: 11px;
+	margin: 0 0 12px;
+	font-weight: bolder;
+}
 
-h4, h5, h6 {
-	margin: 5px 0 5px;
-	font-weight: bold;
+h5 {
+	font-size: 16px;
+	margin: 0 0 12px;
+	font-style: italic;
+}
+
+h6 {
+	font-size: 8px;
+	margin: 0 0 12px;
+	font-weight: lighter;
+color: rgba(41, 12, 0, 0.8);
 }
 
 h1 a,
