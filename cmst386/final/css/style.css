@@ -99,13 +99,13 @@ a img {
 }
 
 a {
-	color: #363636;
+	color: #290c00;
 	outline: none;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #999;
+	color: #280c00;
 }
 
 /* remove dotted lines on some links in FF browser */
@@ -117,11 +117,29 @@ a img {
 	outline: none;
 }
 
-.content {
-  g
+.shack {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 
-/* / */
+.shack > div {
+  background-color: rgba(255, 204, 0, 0.8);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.crown {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.eye {
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
 
 /* CLEARFIX */
 .clearfix:after {
