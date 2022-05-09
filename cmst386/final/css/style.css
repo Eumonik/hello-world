@@ -36,6 +36,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, Helvetica, sans-serif;
   color: #ff7b00;
+  margin: 2px;
 }
 
 h1 {
@@ -115,12 +116,12 @@ a img {
   align-content: flex-start;
   grid-template-columns: auto auto auto auto; /*Make the grid smaller than the container*/
   gap: 10px;
-  background-color: #fffeeb;
+  background-color: rgba(255, 153, 0, 0.5);
   padding: 10px;
 }
 
 .shack > div {
-  background-color: rgba(255, 153, 0, 0.5);
+  background-color: #fffeeb;
   padding: 20px 0;
 }
 
@@ -163,15 +164,9 @@ a img {
 
 .wrapper{
         position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 550px;
-        transform: translate(-50%,-50%);
 }
 
 .navbar{
-        width: 100px;
-        height: 100px;
         position: relative;
         border: 5px solid #49b293;
         cursor: pointer;
