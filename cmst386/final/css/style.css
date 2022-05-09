@@ -163,20 +163,15 @@ a img {
 
 .navbar {
   overflow: hidden;
-  font-family: monospace;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  padding-bottom: 22px;
   color: red;
 }
 
 .navbar a {
   float: left;
   text-align: center;
-  padding: 14px 16px;
+  padding: 4px 6px;
   text-decoration: none;
-  color: yellow;
+  color: y;
 }
 
 .dropdown {
