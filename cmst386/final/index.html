@@ -86,6 +86,14 @@
     <div class="root">
       <footer>
         <h3>Eumonik © 2022</h3>
+        <script type="text/javascript">
+          function myCallback(json) {
+            alert(new Date(json.dateString));
+          }
+        </script>
+        <script
+          type="text/javascript" src="http://timeapi.org/utc/now.json?callback=myCallback"
+        </script>
         <h6>
           <a href="/cmst386/final/privacy.html">"Who's yo' daddy!?", squeeked Elton privately.</a>
         </h6>
