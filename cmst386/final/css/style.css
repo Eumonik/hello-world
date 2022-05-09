@@ -168,6 +168,7 @@ a img {
   align-content: center;
   text-align: center;
   padding-bottom: 22px;
+  color: red;
 }
 
 .navbar a {
@@ -175,11 +176,13 @@ a img {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: yellow;
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
+  color: purple;
 }
 
 .dropdown .dropbtn {
@@ -191,6 +194,7 @@ a img {
   font-family: inherit;
   margin: 0;
   border-radius: 40px;
+  color: blue;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
