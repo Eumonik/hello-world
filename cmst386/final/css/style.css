@@ -27,8 +27,8 @@ strong {
 
 html,
 body {
-	margin:0;
-	padding:0;
+	margin: 2px;
+	padding: 2px ;
 	height:100%;
 }
 /* /END RESET */
