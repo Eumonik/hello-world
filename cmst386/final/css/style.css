@@ -22,43 +22,6 @@ body {
 }
 /* IN THE BEGINNING */
 
-.crown {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.eye {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  text-align: left;
-}
-
-.throat {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  text-align: center;
-}
-
-.heart {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.solarplex {
-  grid-column-start: 3;
-  grid-column-end: 5;
-}
-
-.sacral {
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-
-.root {
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-
 body {
 	background: #fffeeb;
 	font-family: Arial, Helvetica, sans-serif;
@@ -218,6 +181,42 @@ a img {
   display: block;
 }
 
+.crown {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.eye {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: left;
+}
+
+.throat {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+}
+
+.heart {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.solarplex {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.sacral {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.root {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
 
 /* FIX FIX CLEAR */
 /* FIX FIX CLEAR */
