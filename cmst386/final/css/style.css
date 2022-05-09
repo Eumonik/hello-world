@@ -125,12 +125,12 @@ a img {
   align-content: flex-start;
   grid-template-columns: auto auto auto auto; /*Make the grid smaller than the container*/
   gap: 10px;
-  background-color: rgba(255, 204, 0, 0.8);
+  background-color: rgba(255, 204, 0, 0.88);
   padding: 10px;
 }
 
 .shack > div {
-  background-color: rgba(255, 204, 0, 0.2);
+  background-color: rgba(255, 204, 0, 0.11);
   padding: 20px 0;
 }
 
