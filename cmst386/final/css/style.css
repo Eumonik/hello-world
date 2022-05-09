@@ -97,6 +97,7 @@ h6 a {}
 a img {
 	border: none;
 	outline: none;
+  width: auto;
 }
 
 a {
