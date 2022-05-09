@@ -121,7 +121,7 @@ a img {
 .shack {
   display: grid;
   justify-content: end;
-  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  grid-template-columns: auto auto auto auto; /*Make the grid smaller than the container*/
   gap: 10px;
   background-color: rgba(255, 204, 0, 0.8);
   padding: 10px;
@@ -135,37 +135,37 @@ a img {
 
 .crown {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
 }
 
 .eye {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
 }
 
 .throat {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
 }
 
 .heart {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
 }
 
 .solarplex {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 .sacral {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
 }
 
 .root {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
 }
 
 /* CLEARFIX */
