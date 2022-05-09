@@ -76,6 +76,7 @@ h5 {
 	font-size: 11px;
 	margin: 0 0 12px;
 	font-style: italic;
+  color: #290c00;
 }
 
 h6 {
@@ -114,6 +115,10 @@ a:active,
 a:visited,
 a img {
 	outline: none;
+}
+
+.content {
+  g
 }
 
 /* / */
