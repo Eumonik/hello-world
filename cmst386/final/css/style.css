@@ -49,9 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 33px;
 	margin: 0 0 15px;
-	font-weight: 900;
+	font-weight: bold;
   letter-spacing: .3rem;
 }
 
@@ -120,14 +120,15 @@ a img {
 
 .shack {
   display: grid;
-  grid-template-columns: auto auto auto;
+  justify-content: end;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
   gap: 10px;
-  background-color: #2196F3;
+  background-color: rgba(255, 204, 0, 0.8);
   padding: 10px;
 }
 
 .shack > div {
-  background-color: rgba(255, 204, 0, 0.8);
+  background-color: rgba(255, 204, 0, 0.2);
   text-align: center;
   padding: 20px 0;
 }
@@ -138,8 +139,33 @@ a img {
 }
 
 .eye {
-  grid-column-start: 5;
-  grid-column-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.throat {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.heart {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.solarplex {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.sacral {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.root {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 /* CLEARFIX */
