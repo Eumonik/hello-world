@@ -1,17 +1,10 @@
 @charset "utf-8";
-/*
-	Author		CrystalCommerce.com // Ross Dallaire
 
-	Colors
-*/
-
-/* RESET */
+/* GREAT RESET */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, code,
-del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -21,17 +14,51 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   font-family: inherit;
 }
 
-strong {
-	font-weight: bold;
-}
-
 html,
 body {
 	margin: 2px;
 	padding: 2px ;
 	height:100%;
 }
-/* /END RESET */
+/* IN THE BEGINNING */
+
+.crown {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.eye {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: left;
+}
+
+.throat {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+}
+
+.heart {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.solarplex {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.sacral {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.root {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
 body {
 	background: #fffeeb;
 	font-family: Arial, Helvetica, sans-serif;
@@ -134,43 +161,6 @@ a img {
   padding: 20px 0;
 }
 
-.crown {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.eye {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  text-align: left;
-}
-
-.throat {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  text-align: center;
-}
-
-.heart {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.solarplex {
-  grid-column-start: 3;
-  grid-column-end: 5;
-}
-
-.sacral {
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-
-.root {
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-
 .navbar {
   overflow: hidden;
   font-family: monospace;
@@ -231,7 +221,11 @@ a img {
 }
 
 
-/* CLEARFIX */
+/* FIX FIX CLEAR */
+/* FIX FIX CLEAR */
+/* TRAH-LAH-LAH */
+/* TRAH-LAH-LAH */
+
 .clearfix:after {
 	content: ".";
 	display: block;
