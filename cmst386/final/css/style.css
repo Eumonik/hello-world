@@ -162,13 +162,9 @@ a img {
   grid-column-end: 5;
 }
 
-.wrapper{
-        position: absolute;
-}
-
 .navbar{
         position: relative;
-        border: 5px solid #49b293;
+        border: 5px solid #ff7b00;
         cursor: pointer;
         transition: all 0.3s ease;
 }
@@ -176,7 +172,7 @@ a img {
 .navbar div{
         height: 8px;
         width: 60px;
-        background-color: #fff;
+        background-color: #fffeeb;
         position: absolute;
         transition: all 0.5s ease;
 }
