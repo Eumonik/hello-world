@@ -116,7 +116,7 @@ a img {
   align-content: flex-start;
   grid-template-columns: auto auto auto auto; /*Make the grid smaller than the container*/
   gap: 10px;
-  background-color: rgba(255, 153, 0, 0.5);
+  background-color: rgba(255, 153, 0, 0.1);
   padding: 10px;
 }
 
