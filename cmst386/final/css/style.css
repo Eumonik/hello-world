@@ -131,6 +131,7 @@ a:hover {
 
 .throat a img {
   margin: auto;
+  width: auto;
   outline-color: #ff9900;
   outline-style: dotted;
   outline-width: thin;
