@@ -143,6 +143,8 @@ a img {
 }
 
 .throat {
+  grid-column-start: 1;
+  grid-column-end: auto;
   display: grid;
   grid-auto-columns: auto;
   grid-gap: 7px;
@@ -177,19 +179,19 @@ a img {
 }
 
 .nav-link {
-  color: #290c00;
-  width: auto;
+  color: #ff7b00;
+  width: 97%;
   -webkit-transition: width .35s ease-in-out;
   transition: width .35s ease-in-out;
 }
 
 .nav-link: hover {
-  color:
-  width: 107%;
+  color: #ff9900;
+  width: auto;
 }
 
-.nav-item a {
-  background-color:
+.nav-link: active {
+
 }
 
 .van {
