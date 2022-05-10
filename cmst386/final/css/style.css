@@ -41,12 +41,12 @@ p {
 
 h1 {
 	font-size: 33px;
-	margin: 0 0 15px;
+	margin: 0 0 4px;
 	font-weight: bold;
   letter-spacing: .3rem;
   border: 1px dotted;
-  padding: 10px;
-  box-shadow: 5px 10px #ffcc00;
+  padding: 2px;
+  box-shadow: 2px 7px rgba(rgba(255, 204, 0, 0.5););
 }
 
 h2 {
@@ -188,6 +188,16 @@ a img {
 
 .nav-item a {
   background-color:
+}
+
+.van {
+  font-size: 33px;
+  margin: 0 0 12px;
+  font-weight: bold;
+  letter-spacing: .3rem;
+  border: 1px dotted;
+  padding: 4px;
+  box-shadow: 5px 10px #ffcc00;
 }
 
 /* FIX FIX CLEAR */
