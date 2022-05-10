@@ -157,6 +157,8 @@ a:hover {
 .root {
   grid-column-start: 1;
   grid-column-end: 5;
+  color: #ff7b00;
+  font-size: 7pt;
 }
 
 .navbar {
