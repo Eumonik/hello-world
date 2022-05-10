@@ -144,9 +144,8 @@ a img {
 
 .throat {
   grid-column-start: 1;
-  grid-column-end: auto;
+  grid-column-end: 5;
   display: grid;
-  grid-auto-columns: auto;
   grid-gap: 7px;
   padding: 7px;
   border: 7px ridge #fffeeb;
