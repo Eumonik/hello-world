@@ -107,16 +107,6 @@ a:hover {
 	color: #280c00;
 }
 
-/* remove dotted lines on some links in FF browser */
-
-a,
-a:active,
-a:visited,
-a img {
-	outline: none;
-  max-width: 100%;
-  height: auto;
-}
 
 .shack {
   display: grid;
