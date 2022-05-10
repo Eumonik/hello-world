@@ -120,7 +120,6 @@ a img {
 
 .shack {
   display: grid;
-  justify-content: left;
   align-content: center;
   grid-template-columns: auto auto auto auto; /*Make the grid smaller than the container*/
   gap: 7px;
