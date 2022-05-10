@@ -175,8 +175,15 @@ a img {
   background-color: #ff9900;
 }
 
-.nav-item active {
+.nav-link {
   background-color: black;
+  width: auto;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+
+.nav-link: hover {
+  width: 107%;
 }
 
 .nav-item a {
