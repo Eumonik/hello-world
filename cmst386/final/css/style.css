@@ -148,8 +148,12 @@ a img {
   display: grid;
   grid-gap: 7px;
   padding: 7px;
-  border: 7px ridge #fffeeb;
+}
+
+.throat a img {
+  margin: auto;
   background-color: #ff9900;
+  align-content: center;
 }
 
 .heart {
