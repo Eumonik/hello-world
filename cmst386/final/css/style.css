@@ -33,6 +33,12 @@ p {
   color: #290c00;
 }
 
+img {
+  width: 100%;
+  max-width: 444px;
+  height: auto;
+}
+
 .shack h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, Helvetica, sans-serif;
   color: #ff7b00;
@@ -125,6 +131,7 @@ a:hover {
   grid-gap: 7px;
   padding: 7px;
 }
+
 
 .throat a img {
   outline-color: #ff9900;
