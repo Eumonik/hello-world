@@ -166,6 +166,14 @@ a img {
   background-color: #ff9900;
 }
 
+.nav-item active {
+  background-color: black;
+}
+
+.nav-item a {
+  background-color: 
+}
+
 /* FIX FIX CLEAR */
 /* FIX FIX CLEAR */
 /* TRAH-LAH-LAH */
