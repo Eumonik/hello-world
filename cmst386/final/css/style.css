@@ -121,21 +121,15 @@ a:hover {
   grid-column-start: 1;
   grid-column-end: 5;
   display: grid;
+  align-content: center;
   grid-gap: 7px;
   padding: 7px;
 }
 
-.throat a {
-  align-content: center;
-}
-
 .throat a img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
   outline-color: #ff9900;
-  outline-style: dotted;
-  outline-width: 7px;
+  outline-style: solid;
+  outline-width: .2vw;
 }
 
 .heart {
