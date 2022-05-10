@@ -145,7 +145,8 @@ a img {
   grid-column-start: 1;
   align-content: center;
   padding: .07vw;
-  
+  transform-style: preserve-3d;
+  transform: rotateX(23.4deg);
 }
 
 .heart {
