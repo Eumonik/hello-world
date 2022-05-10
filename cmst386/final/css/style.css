@@ -146,8 +146,6 @@ a img {
   grid-column-start: 1;
   margin: auto;
   padding: .07vw;
-  transform-style: preserve-3d;
-  transform: rotateX(23.4deg);
   border: 7px ridge #fffeeb;
   background-color: #ff9900;
 }
