@@ -143,9 +143,10 @@ a img {
 }
 
 .throat {
-  grid-auto-flow: dense;
-  margin: auto;
-  padding: .07vw;
+  display: grid;
+  grid-auto-columns: auto;
+  grid-gap: 7px;
+  padding: 7px;
   border: 7px ridge #fffeeb;
   background-color: #ff9900;
 }
