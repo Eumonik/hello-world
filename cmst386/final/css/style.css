@@ -125,6 +125,10 @@ a:hover {
   padding: 7px;
 }
 
+.throat a {
+  align-content: center;
+}
+
 .throat a img {
   margin: auto;
   outline-color: #ff9900;
