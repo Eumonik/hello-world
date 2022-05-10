@@ -201,6 +201,12 @@ a img {
   box-shadow: 5px 10px #ffcc00;
 }
 
+.polyline {
+  fill: white;
+  stroke: #ffcc00;
+  stroke-width: 4;
+}
+
 /* FIX FIX CLEAR */
 /* FIX FIX CLEAR */
 /* TRAH-LAH-LAH */
