@@ -174,14 +174,12 @@ a:hover {
 
 .nav-link {
   color: #ff7b00;
-  width: 97%;
   -webkit-transition: width .35s ease-in-out;
   transition: width .35s ease-in-out;
 }
 
 .nav-link: hover {
   color: #ff9900;
-  width: auto;
 }
 
 .nav-link: active {
