@@ -162,64 +162,6 @@ a img {
   grid-column-end: 5;
 }
 
-.wrapper{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 550px;
-        transform: translate(-50%,-50%);
-}
-
-.navbar{
-        position: relative;
-        border: 5px solid #ff7b00;
-        cursor: pointer;
-        transition: all 0.3s ease;
-}
-
-.navbar div{
-        height: 8px;
-        width: 60px;
-        background-color: #fffeeb;
-        position: absolute;
-        transition: all 0.5s ease;
-}
-
-.navbar .first{
-        top: 25px;
-        left: 20px;
-}
-
-.navbar .second{
-        top: 45px;
-        left: 20px;
-}
-
-.navbar .third{
-        top: 65px;
-        left: 20px;
-}
-
-.navbar:hover .first {
-        transform: translateY(2px) rotate(45deg);
-        transition: all 0.5s ease;
-}
-
-.navbar:hover .second {
-        opacity: 0;
-        transition: all 0.2s ease;
-}
-
-.navbar:hover .third{
-        transform: translateY(-2px) rotate(-45deg);
-        transition: all 0.5s ease;
-}
-
-.navbar:hover{
-        border-radius:50%;
-        transition: all 0.3s ease;
-}
-
 /* FIX FIX CLEAR */
 /* FIX FIX CLEAR */
 /* TRAH-LAH-LAH */
