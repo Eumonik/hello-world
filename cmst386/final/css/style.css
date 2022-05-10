@@ -133,21 +133,19 @@ a img {
 
 .crown {
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 3;
   align-content: center;
 }
 
 .eye {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  text-align: left;
+  grid-column-start: 3;
 }
 
 .throat {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  text-align: center;
+  grid-column-start: 1;
   align-content: center;
+  padding: .07vw;
+  
 }
 
 .heart {
