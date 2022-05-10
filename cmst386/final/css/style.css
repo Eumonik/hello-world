@@ -133,18 +133,18 @@ a img {
 
 .crown {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
   align-content: center;
 }
 
 .eye {
-  grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
   text-align: left;
 }
 
 .throat {
-  grid-column-start: 1;
+  grid-column-start: 3;
   grid-column-end: 5;
   text-align: center;
   align-content: center;
@@ -155,7 +155,7 @@ a img {
   grid-column-end: 3;
 }
 
-.solarplex {
+.solar {
   grid-column-start: 3;
   grid-column-end: 5;
   text-align: center;
@@ -176,13 +176,14 @@ a img {
 }
 
 .nav-link {
-  background-color: black;
+  color: #290c00;
   width: auto;
   -webkit-transition: width .35s ease-in-out;
   transition: width .35s ease-in-out;
 }
 
 .nav-link: hover {
+  color:
   width: 107%;
 }
 
