@@ -135,6 +135,7 @@ a img {
   grid-column-start: 1;
   grid-column-end: 3;
   align-content: center;
+  text-align: right;
 }
 
 .eye {
