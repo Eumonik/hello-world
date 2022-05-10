@@ -82,19 +82,6 @@ h6 {
   color: rgba(41, 12, 0, 0.8);
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {}
-
-a img {
-	border: none;
-	outline: none;
-  height: auto;
-}
-
 a {
 	color: #290c00;
 	outline: none;
@@ -140,7 +127,9 @@ a:hover {
 
 .throat a img {
   margin: auto;
-  background-color: #ff9900;
+  outline-color: #ff9900;
+  outline-style: dotted;
+  outline-width: thin;
   align-content: center;
 }
 
