@@ -144,6 +144,10 @@ a:hover {
   grid-column-end: 3;
 }
 
+.heart a img {
+  margin: auto;
+}
+
 .solar {
   grid-column-start: 3;
   grid-column-end: 5;
