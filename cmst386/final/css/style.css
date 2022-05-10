@@ -115,8 +115,7 @@ a img {
   justify-content: center;
   align-content: flex-start;
   grid-template-columns: auto auto auto auto; /*Make the grid smaller than the container*/
-  gap: 10px;
-  background-color: rgba(255, 153, 0, 0.1);
+  gap: 7px;
   padding: 10px;
 }
 
@@ -150,6 +149,7 @@ a img {
 .solarplex {
   grid-column-start: 3;
   grid-column-end: 5;
+  text-align: center;
 }
 
 .sacral {
