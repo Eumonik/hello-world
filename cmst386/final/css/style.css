@@ -44,6 +44,9 @@ h1 {
 	margin: 0 0 15px;
 	font-weight: bold;
   letter-spacing: .3rem;
+  border: 1px dotted;
+  padding: 10px;
+  box-shadow: 5px 10px #ffcc00;
 }
 
 h2 {
