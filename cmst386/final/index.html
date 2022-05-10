@@ -10,8 +10,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <link rel="stylesheet" href="/cmst386/final/css/style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script type="text/javascript">
+  <!--
+
+  function init ( )
+  {
+    timeDisplay = document.createTextNode ( "" );
+    document.getElementById("clock").appendChild ( timeDisplay );
+  }
+
+  function updateClock ( )
+  {
+    var currentTime = new Date ( );
+
+    var currentHours = currentTime.getHours ( );
+    var currentMinutes = currentTime.getMinutes ( );
+    var currentSeconds = currentTime.getSeconds ( );
+
+    // Pad the minutes and seconds with leading zeros, if required
+    currentMinutes = ( currentMinutes < 10 ? "0" : "" ) + currentMinutes;
+    currentSeconds = ( currentSeconds < 10 ? "0" : "" ) + currentSeconds;
+
+    // Choose either "AM" or "PM" as appropriate
+    var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";
+
+    // Convert the hours component to 12-hour format if needed
+    currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;
+
+    // Convert an hours component of "0" to "12"
+    currentHours = ( currentHours == 0 ) ? 12 : currentHours;
+
+    // Compose the string for display
+    var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+
+    // Update the time display
+    document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+  }
+
+  // -->
+</script>
 </head>
-<body>
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
 
   <div class="shack">
 
@@ -109,14 +148,9 @@
     <div class="root">
       <footer>
         <h3>Eumonik © 2022</h3>
-        <script type="text/javascript">
-          function myCallback(json) {
-            alert(new Date(json.dateString));
-          }
-        </script>
-        <script
-          type="text/javascript" src="http://timeapi.org/utc/now.json?callback=myCallback"
-        </script>
+        <div style="width: 10em; text-align: center; margin: 20px auto;">
+          <span id="clock">&nbsp;</span>
+        </div>
         <h6>
           <a href="/cmst386/final/privacy.html">"Who's yo' daddy!?", squeeked Elton privately.</a>
         </h6>
