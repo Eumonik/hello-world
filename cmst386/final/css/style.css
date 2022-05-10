@@ -130,12 +130,12 @@ a:hover {
 }
 
 .throat a img {
-  margin: auto;
-  width: auto;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
   outline-color: #ff9900;
   outline-style: dotted;
-  outline-width: thin;
-  align-content: center;
+  outline-width: 7px;
 }
 
 .heart {
@@ -152,6 +152,12 @@ a:hover {
 .sacral {
   grid-column-start: 1;
   grid-column-end: 5;
+}
+
+.sacral img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 
 .root {
