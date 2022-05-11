@@ -137,6 +137,7 @@ a:hover {
   outline-color: #ff9900;
   outline-style: solid;
   outline-width: .2vw;
+  text-align: center;
 }
 
 .heart {
@@ -145,7 +146,11 @@ a:hover {
 }
 
 .heart a img {
+  display: table-cell;
+  height: 300px;
   text-align: center;
+  width: 300px;
+  vertical-align: middle;
 }
 
 .solar {
