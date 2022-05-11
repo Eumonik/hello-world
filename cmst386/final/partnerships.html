@@ -216,6 +216,33 @@ Create and include a relevant legible favicon (https://favicon.io/) (Hint: this 
 -->
 
   </div>
+  <script type="text/javascript">
+  function epr() {
+      var name = document.forms["epr"]["Name"];
+      var email = document.forms["epr"]["Email"];
+      var email = document.forms["epr"]["Reason"];
+
+      if (name.value == "") {
+          window.alert("Please enter a valid name.");
+          name.focus();
+          return false;
+      }
+
+      if (email.value == "") {
+          window.alert("Please enter a valid e-mail address.");
+          email.focus();
+          return false;
+      }
+
+      if (reason.value == "") {
+          window.alert("Please enter the reason for partnership.");
+          address.focus();
+          return false;
+      }
+
+      return true;
+  }
+  </script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
   <script>
      const constraints = {
