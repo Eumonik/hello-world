@@ -221,6 +221,8 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  grid-row-start: 1;
+  grid-row-end: 5;
 }
 
 /* Place text in the middle of the image */
