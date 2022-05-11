@@ -130,7 +130,7 @@ Create and include a relevant legible favicon (https://favicon.io/) (Hint: this 
     </div>
 
     <div class="sacral">
-      <form action="mailto:yo@eumonik.com">
+      <form action="mailto:yo@eumonik.com" name="epr">
         <label for="fname"><i class="fa-regular fa-sun"></i></label>
         <input type="text" id="fname" value="First Name">
 
@@ -192,9 +192,49 @@ Create and include a relevant legible favicon (https://favicon.io/) (Hint: this 
         </h6>
       </footer>
     </div>
+<!--
+<label for="fname"><i class="fa-regular fa-sun"></i></label>
+<input type="text" id="fname" value="First Name">
+
+<label for="lname"></label>
+<input type="text" id="lname" value="Last Name"><br><br>
+
+<i class="fa-solid fa-heart-pulse"></i>
+<textarea id="reason" name="reason" rows=auto cols=auto>
+  Purpose & Proposal (please be specific)
+</textarea>
+<br><br>
+
+<input type="radio" id="product" name="truth" value="product">
+<label for="seriously">Product Review</label><br>
+
+<input type="radio" id="project" name="truth" value="project">
+<label for="literally">Sponsored Project</label><br>
+
+<input type="radio" id="other" name="truth" value="other">
+<label for="not funny">Other</label><br><br>
+-->
 
   </div>
-
+  <script type="text/javascript">
+  function validateForm() {
+    let x = document.forms["epr"]["fname"].value;
+    if (x == "") {
+      alert("First Name Required");
+      return false;
+    }
+    let x = document.forms["epr"]["lname"].value;
+    if (x == "") {
+      alert("Last Name Required");
+      return false;
+    }
+    let x = document.forms["epr"]["reason"].value;
+    if (x == "") {
+      alert("Reason Required");
+      return false;
+    }
+    }
+  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
