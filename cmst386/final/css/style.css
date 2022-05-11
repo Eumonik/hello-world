@@ -211,7 +211,7 @@ a:hover {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/cmst386/final/images/Kyle_James_Jezwinski_big-eyes-little-mouth_ZOOM.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/cmst386/final/images/Kyle_James_Jezwinski_big-eyes-little-mouth_ZOOM.jpg");
 
   /* Set a specific height */
   height: 50%;
