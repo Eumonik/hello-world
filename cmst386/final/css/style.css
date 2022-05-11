@@ -146,10 +146,7 @@ a:hover {
 }
 
 .heart a img {
-  display: table-cell;
-  height: 300px;
-  text-align: center;
-  width: 300px;
+  a
   vertical-align: middle;
 }
 
