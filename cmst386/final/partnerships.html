@@ -215,24 +215,42 @@ Create and include a relevant legible favicon (https://favicon.io/) (Hint: this 
 -->
 
   </div>
-  <script type="text/javascript">
-  function validateForm() {
-    let x = document.forms["epr"]["fname"].value;
-    if (x == "") {
-      alert("First Name Required");
-      return false;
-    }
-    let x = document.forms["epr"]["lname"].value;
-    if (x == "") {
-      alert("Last Name Required");
-      return false;
-    }
-    let x = document.forms["epr"]["reason"].value;
-    if (x == "") {
-      alert("Reason Required");
-      return false;
-    }
-    }
+  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script>
+     const constraints = {
+         name: {
+             presence: { allowEmpty: false }
+         },
+         email: {
+             presence: { allowEmpty: false },
+             email: true
+         },
+         reason: {
+             presence: { allowEmpty: false }
+         }
+     };
+
+     const form = document.getElementById('epr');
+
+     form.addEventListener('submit', function (event) {
+       const formValues = {
+           name: form.elements.name.value,
+           email: form.elements.email.value,
+           message: form.elements.message.value
+       };
+
+       const errors = validate(formValues, constraints);
+
+       if (errors) {
+         event.preventDefault();
+         const errorMessage = Object
+             .values(errors)
+             .map(function (fieldValues) { return fieldValues.join(', ')})
+             .join("\n");
+
+         alert(errorMessage);
+       }
+     }, false);
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
