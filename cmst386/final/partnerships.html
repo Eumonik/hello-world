@@ -131,7 +131,7 @@ Create and include a relevant legible favicon (https://favicon.io/) (Hint: this 
 
     <div class="sacral">
 
-      <form onsubmit="return epr()" method="post" name="epr" action="/cmst386/final/index.html">
+      <form method="post" name="epr">
         <label for="fname"><i class="fa-regular fa-sun"></i></label>
         <input type="text" id="name" value="Name">
 
@@ -217,30 +217,12 @@ Create and include a relevant legible favicon (https://favicon.io/) (Hint: this 
 
   </div>
   <script type="text/javascript">
-  function epr() {
-      var name = document.forms["epr"]["name"];
-      var email = document.forms["epr"]["email"];
-      var email = document.forms["epr"]["reason"];
-
-      if (name.value == "") {
-          window.alert("Please enter a valid name.");
-          name.focus();
-          return false;
-      }
-
-      if (email.value == "") {
-          window.alert("Please enter a valid e-mail address.");
-          email.focus();
-          return false;
-      }
-
-      if (reason.value == "") {
-          window.alert("Please enter the reason for partnership.");
-          address.focus();
-          return false;
-      }
-
-      return true;
+  function validateForm() {
+    let x = document.forms["epr"]["name"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
   }
   </script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
