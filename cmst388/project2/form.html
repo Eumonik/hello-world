@@ -1,0 +1,57 @@
+<form name="myForm" onsubmit="return false">
+
+  <input type="text" placeholder="First Name"id="fname">
+  <input type="text" placeholder="Last Name"id="lname">
+  <input type="text" placeholder="Address"id="Address">
+  <input type="text" placeholder="City"id="City">
+
+  <input type="radio" id="vegan" name="meal" value="vegan">
+  <input type="radio" id="veggie" name="meal" value="veggie">
+  <input type="radio" id="non-veggie?" name="meal" value="non-veggie?">
+
+
+  <label for="reason">Purpose & Proposal (please be specific)</label>
+  <textarea id="reason" name="reason" rows=auto cols=auto>
+  </textarea>
+  <br><br>
+
+  <input type="radio" id="product" name="truth" value="product">
+  <label for="seriously">Product Review</label><br>
+
+  <input type="radio" id="project" name="truth" value="project">
+  <label for="literally">Sponsored Project</label><br>
+
+  <input type="radio" id="other" name="truth" value="other">
+  <label for="not funny">Other</label><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+
+<!--
+  Name	The use is required to enter a first and last name. You must create two text boxes (one for the first name and one for the last name). Neither field must be blank. Include default text in the first and last name fields. Remove the default text once the user selects the field.
+
+First Name and Last Name Field Types: Alpha only.
+Address	The user is required to enter a valid mailing address. You must create three separate text boxes to gather city, state, and zip code information. The address can not be blank.
+
+Zip Code: Numeric only (5 digits)
+Address Field: Alphanumeric characters
+City: Alpha only
+State: (Selected from a pull down menu) The user must select a state.
+Phone Number	The user must enter a valid 10 digit phone number, including area code.  You must create two text boxes to gather the user's phone number. These fields can not be blank.
+
+Area Code: (3 digits)
+Phone Number: (7 digits)
+E-mail Address	The user must enter a valid e-mail address that follows the standard e-mail convention <name@domain.extension>, where the length of "name" can be up to 64 characters in length, and "domain" may be up to 252 characters in length.
+
+If an invalid e-mail address is entered, the user should receive a message similar to "You have entered an invalid e-mail address".
+Confirm E-mail Address	The user must enter in the exact same e-mail address entered in the previous E-mail Address field. If not, an error message will be generated.
+Meal Preference
+The user must select a meal preference from a radio button list (Vegan, Vegetarian, Non-Vegetarian).
+
+Contact Method
+The user must select at least two of four contact methods listed on the form. An error message will display when less than two (zero or one) methods are selected.
+
+Comments
+Optional field for additional comments. Field length (250 characters). This field can be blank.
+-->
