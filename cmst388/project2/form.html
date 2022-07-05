@@ -1,31 +1,152 @@
-<form name="myForm" onsubmit="return false">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CMST388 - Kyle Jezwinski - Project 2</title>
+  <link rel="stylesheet" href="/Users/eumonik/Documents/UMGC/cmst/hello-world/cmst388/project2/style.css" />
+  <script src="/Users/eumonik/Documents/UMGC/cmst/hello-world/cmst388/project2/js/best.js"></script>
+</head>
 
-  <input type="text" placeholder="First Name"id="fname">
-  <input type="text" placeholder="Last Name"id="lname">
-  <input type="text" placeholder="Address"id="Address">
-  <input type="text" placeholder="City"id="City">
+<body>
 
-  <input type="radio" id="vegan" name="meal" value="vegan">
-  <input type="radio" id="veggie" name="meal" value="veggie">
-  <input type="radio" id="non-veggie?" name="meal" value="non-veggie?">
+<header>
+    <h1 style="text-align: center">AWESOME FORM!</h1>
+</header>
 
 
-  <label for="reason">Purpose & Proposal (please be specific)</label>
-  <textarea id="reason" name="reason" rows=auto cols=auto>
-  </textarea>
-  <br><br>
+  <section>
+    <nav>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iQF-OxtvgAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</nav>
+  <article>
+    <div id="cheese">
+      <form name="myForm" onsubmit="return runit(this)" method="post">
 
-  <input type="radio" id="product" name="truth" value="product">
-  <label for="seriously">Product Review</label><br>
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" id="fname" autocomplete="off">
+        <small></small><br><br>
 
-  <input type="radio" id="project" name="truth" value="project">
-  <label for="literally">Sponsored Project</label><br>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" id="lname" autocomplete="off">
+        <small></small><br><br>
 
-  <input type="radio" id="other" name="truth" value="other">
-  <label for="not funny">Other</label><br><br>
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address" autocomplete="off">
+        <small></small><br><br>
 
-  <input type="submit" value="Submit">
-</form>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" autocomplete="off">
+        <small></small><br><br>
+
+        <p>State:<br>
+            <select type="text" value="" name="state">
+              <option value="">?</option>
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="CT">Connecticut</option>
+              <option value="DE">Delaware</option>
+              <option value="DC">District Of Columbia</option>
+              <option value="FL">Florida</option>
+              <option value="GA">Georgia</option>
+              <option value="HI">Hawaii</option>
+              <option value="ID">Idaho</option>
+              <option value="IL">Illinois</option>
+              <option value="IN">Indiana</option>
+              <option value="IA">Iowa</option>
+              <option value="KS">Kansas</option>
+              <option value="KY">Kentucky</option>
+              <option value="LA">Louisiana</option>
+              <option value="ME">Maine</option>
+              <option value="MD">Maryland</option>
+              <option value="MA">Massachusetts</option>
+              <option value="MI">Michigan</option>
+              <option value="MN">Minnesota</option>
+              <option value="MS">Mississippi</option>
+              <option value="MO">Missouri</option>
+              <option value="MT">Montana</option>
+              <option value="NE">Nebraska</option>
+              <option value="NV">Nevada</option>
+              <option value="NH">New Hampshire</option>
+              <option value="NJ">New Jersey</option>
+              <option value="NM">New Mexico</option>
+              <option value="NY">New York</option>
+              <option value="NC">North Carolina</option>
+              <option value="ND">North Dakota</option>
+              <option value="OH">Ohio</option>
+              <option value="OK">Oklahoma</option>
+              <option value="OR">Oregon</option>
+              <option value="PA">Pennsylvania</option>
+              <option value="RI">Rhode Island</option>
+              <option value="SC">South Carolina</option>
+              <option value="SD">South Dakota</option>
+              <option value="TN">Tennessee</option>
+              <option value="TX">Texas</option>
+              <option value="UT">Utah</option>
+              <option value="VT">Vermont</option>
+              <option value="VA">Virginia</option>
+              <option value="WA">Washington</option>
+              <option value="WV">West Virginia</option>
+              <option value="WI">Wisconsin</option>
+              <option value="WY">Wyoming</option>
+              <option value="AS">American Samoa</option>
+              <option value="GU">Guam</option>
+              <option value="MP">Northern Mariana Islands</option>
+              <option value="PR">Puerto Rico</option>
+              <option value="UM">United States Minor Outlying Islands</option>
+              <option value="VI">Virgin Islands</option>
+            </select></p><br>
+
+            <label for="acode">Area code:</label>
+            <input type="text" name="acode" id="acode" autocomplete="off">
+            <small></small><br><br>
+
+            <label for="number">Phone number:</label>
+            <input type="text" name="number" id="number" autocomplete="off">
+            <small></small><br><br>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" autocomplete="off">
+            <small></small><br><br>
+
+            <p>meal</p>
+            <input type="radio" id="vegan" name="meal" value="vegan">
+            <label for="meal">Vegan</label><br>
+            <input type="radio" id="veggie" name="meal" value="veggie">
+            <label for="meal">Veggie</label><br>
+            <input type="radio" id="non-veggie?" name="meal" value="non-veggie?">
+            <label for="meal">Non-Veggie?</label><br>
+
+            <p>contact</p>
+            <input type="radio" id="call" name="contact" value="call">
+            <label for="meal">Call</label><br>
+            <input type="radio" id="text" name="contact" value="text">
+            <label for="meal">Text</label><br>
+            <input type="radio" id="email" name="contact" value="email">
+            <label for="meal">Email</label><br>
+            <input type="radio" id="other" name="contact" value="other">
+            <label for="meal">Other</label><br>
+
+            <input type="text" name="Other" value="">
+
+
+
+        <p><input type="submit" value="Send" name="Submit">
+        <input type="reset" value="Reset" name="Reset">
+        </p>
+    </div>
+  </article>
+</section>
+
+
+
+</body>
+
+</html>
+
 
 
 <!--
