@@ -19,6 +19,7 @@ function runit(blam)
   var meal = blam.meal.value;
   var contact = blam.contact.value;
 
+for (var i = 0; i < blam.length; i++) {
   if (first == "")
     {
       alert("FIRST NAME NEEDED");
@@ -123,7 +124,7 @@ function runit(blam)
           state.focus();
             return false;
          }
-
+}
 
 
 }
